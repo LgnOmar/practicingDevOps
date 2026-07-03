@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/LgnOmar/practicingDevOps/issues"
   },
-  "homepage": "https://github.com/LgnOmar/practicingDevOps#readme"
+  "homepage": "https://github.com/LgnOmar/practicingDevOps#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
